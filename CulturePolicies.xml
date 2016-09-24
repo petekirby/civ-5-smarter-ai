@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/29/2013 6:10:23 PM -->
+<GameData>
+	<Policy_Flavors>
+		<!-- Emphasize the cultural policies in piety -->
+		<Delete PolicyType="POLICY_PIETY" />
+		<Row>
+			<PolicyType>POLICY_PIETY</PolicyType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_PIETY</PolicyType>
+			<FlavorType>FLAVOR_SPACESHIP</FlavorType>
+			<Flavor>-10</Flavor>
+		</Row>
+		<Delete PolicyType="POLICY_MANDATE_OF_HEAVEN" />
+		<Row>
+			<PolicyType>POLICY_MANDATE_OF_HEAVEN</PolicyType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_MANDATE_OF_HEAVEN</PolicyType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Delete PolicyType="POLICY_ORGANIZED_RELIGION" />
+		<Row>
+			<PolicyType>POLICY_ORGANIZED_RELIGION</PolicyType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ORGANIZED_RELIGION</PolicyType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+		<Update>
+			<Where PolicyType="POLICY_THEOCRACY" FlavorType="FLAVOR_GOLD"/>
+			<Set Flavor="20"/>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_THEOCRACY" FlavorType="FLAVOR_CULTURE"/>
+			<Set Flavor="0"/>
+		</Update>
+		<Delete PolicyType="POLICY_REFORMATION" />
+		<Row>
+			<PolicyType>POLICY_REFORMATION</PolicyType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_REFORMATION</PolicyType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_REFORMATION</PolicyType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+		<Delete PolicyType="POLICY_FREE_RELIGION" />
+		<Row>
+			<PolicyType>POLICY_FREE_RELIGION</PolicyType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+
+		<!-- Create a culture path to Aesthetics -->
+		<!--
+		<Update>
+			<Where PolicyType="POLICY_PATRONAGE" FlavorType="FLAVOR_DIPLOMACY"/>
+			<Set Flavor="15"/>
+		</Update>
+		<Row>
+			<PolicyType>POLICY_PATRONAGE</PolicyType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Update>
+			<Where PolicyType="POLICY_AESTHETICS" FlavorType="FLAVOR_DIPLOMACY"/>
+			<Set Flavor="15"/>
+		</Update>
+		<Row>
+			<PolicyType>POLICY_AESTHETICS</PolicyType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		-->
+
+		<!-- Emphasize the cultural policies in Freedom -->
+		<Update>
+			<Where PolicyType="POLICY_FREEDOM" FlavorType="FLAVOR_GROWTH"/>
+			<Set Flavor="3"/>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_FREEDOM" FlavorType="FLAVOR_GREAT_PEOPLE"/>
+			<Set Flavor="5"/>
+		</Update>
+		<Row>
+			<PolicyType>POLICY_FREEDOM</PolicyType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>22</Flavor>
+		</Row>
+		<Update>
+			<Where PolicyType="POLICY_UNIVERSAL_SUFFRAGE" FlavorType="FLAVOR_CITY_DEFENSE"/>
+			<Set Flavor="17"/>
+		</Update>
+		<Row>
+			<PolicyType>POLICY_UNIVERSAL_SUFFRAGE</PolicyType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Update>
+			<Where PolicyType="POLICY_CIVIL_SOCIETY" FlavorType="FLAVOR_GREAT_PEOPLE"/>
+			<Set Flavor="7"/>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_CIVIL_SOCIETY" FlavorType="FLAVOR_GROWTH"/>
+			<Set Flavor="8"/>
+		</Update>
+		<Row>
+			<PolicyType>POLICY_CIVIL_SOCIETY</PolicyType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Update>
+			<Where PolicyType="POLICY_FREE_SPEECH" FlavorType="FLAVOR_MILITARY_TRAINING"/>
+			<Set Flavor="2"/>
+		</Update>
+		<Row>
+			<PolicyType>POLICY_FREE_SPEECH</PolicyType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Update>
+			<Where PolicyType="POLICY_DEMOCRACY" FlavorType="FLAVOR_GROWTH"/>
+			<Set Flavor="1"/>
+		</Update>
+		<Row>
+			<PolicyType>POLICY_DEMOCRACY</PolicyType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		
+	</Policy_Flavors>
+</GameData>

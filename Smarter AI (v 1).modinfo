@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="ae80d146-ebcb-499b-ae1e-051f823d1e12" version="1">
+  <Properties>
+    <Name>Smarter AI</Name>
+    <Stability>Experimental</Stability>
+    <Teaser>This mod contains AI tweaks intended to improve their performance as players.</Teaser>
+    <Description>This mod contains AI tweaks intended to improve their performance as players.</Description>
+    <Authors>Peter Kirby</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="2CA2366BF80A1C58A6BEEFD19A1B50A9" import="0">AssignSpecialists.lua</File>
+    <File md5="53A5BAD6AF7C66C875DB0DB52A667F45" import="0">BlockBadBuildings.lua</File>
+    <File md5="0B28C572BA0DE84C6ABBE726F8601598" import="0">CultureTech.xml</File>
+    <File md5="0A54F08C8394D2A1B81437C3AD7AE1DF" import="0">CulturePolicies.xml</File>
+    <File md5="F2B9B8C95C3B8898244722ED1C2D93C6" import="0">CultureStrategy.xml</File>
+    <File md5="22C9F9FFC49E1108088F4BCF509189C6" import="0">GeneralTech.xml</File>
+    <File md5="4047FEB8B313A059E7433AB88884F0BC" import="0">GeneralPolicies.xml</File>
+    <File md5="0B42E3ADA4EBF15A819DC76567F375F7" import="0">LibrariesEverywhere.lua</File>
+    <File md5="646F5BBF07A8913C2E74A42F79CE6B6B" import="1">SmarterAI.lua</File>
+    <File md5="24145B89FFFA5F5B3149A8A047132D69" import="0">NationalWondersInCapital.lua</File>
+    <File md5="3F08868EF4B802A656275A735C2FE1B2" import="0">RubberBandTechnologies.lua</File>
+    <File md5="697CDCFB0E62BBC513BECCB14A300886" import="0">ScienceStrategy.xml</File>
+    <File md5="78E0D72E1CBBBC99881A04796F67ADE1" import="0">UseGreatPeople.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>GeneralPolicies.xml</UpdateDatabase>
+      <UpdateDatabase>CulturePolicies.xml</UpdateDatabase>
+      <UpdateDatabase>CultureStrategy.xml</UpdateDatabase>
+      <UpdateDatabase>CultureTech.xml</UpdateDatabase>
+      <UpdateDatabase>ScienceStrategy.xml</UpdateDatabase>
+      <UpdateDatabase>GeneralTech.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="NationalWondersInCapital.lua">
+      <Name>NationalWondersInCapital</Name>
+      <Description>Force the AI to build some National Wonders in the capital.</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="LibrariesEverywhere.lua">
+      <Name>LibrariesEverywhere</Name>
+      <Description>Force the AI to build libraries ASAP.</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="RubberBandTechnologies.lua">
+      <Name>RubberBandTechnologies</Name>
+      <Description>Herds the tech path back to the straight and narrow.</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="UseGreatPeople.lua">
+      <Name>UseGreatPeople</Name>
+      <Description>Handles the use of Great Scientists, Great Artists, and Great Engineers.</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="BlockBadBuildings.lua">
+      <Name>BlockBadBuildings</Name>
+      <Description>Disallows the construction of inferior buildings before better buildings in non-capital cities.</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="AssignSpecialists.lua">
+      <Name>Assign Specialists</Name>
+      <Description>Get the AI to use scientists or artists.</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

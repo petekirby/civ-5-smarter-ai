@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/2/2013 12:00:19 AM -->
+<GameData>
+	<!-- Guilds not so hot -->
+	<Delete TechType="TECH_GUILDS" />
+	<Row>
+		<TechType>TECH_GUILDS</TechType>
+		<FlavorType>FLAVOR_GOLD</FlavorType>
+		<Flavor>15</Flavor>
+	</Row>
+	<Row>
+		<TechType>TECH_GUILDS</TechType>
+		<FlavorType>FLAVOR_WONDER</FlavorType>
+		<Flavor>2</Flavor>
+	</Row>
+
+	<!-- Banking no longer the sex -->
+	<Delete TechType="TECH_BANKING" />
+	<Row>
+		<TechType>TECH_BANKING</TechType>
+		<FlavorType>FLAVOR_GOLD</FlavorType>
+		<Flavor>15</Flavor>
+	</Row>
+	<Row>
+		<TechType>TECH_BANKING</TechType>
+		<FlavorType>FLAVOR_WONDER</FlavorType>
+		<Flavor>5</Flavor>
+	</Row>
+</GameData>

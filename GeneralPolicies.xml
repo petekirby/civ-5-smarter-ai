@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/30/2013 7:49:09 PM -->
+<GameData>
+	<Policy_Flavors>
+		<!-- Force a Collective Rule beeline -->
+		
+		<Delete PolicyType="POLICY_LIBERTY" />
+		<Row>
+			<PolicyType>POLICY_LIBERTY</PolicyType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_LIBERTY</PolicyType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_LIBERTY</PolicyType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_LIBERTY</PolicyType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_LIBERTY</PolicyType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+
+		<Delete PolicyType="POLICY_REPUBLIC" />
+		<Row>
+			<PolicyType>POLICY_REPUBLIC</PolicyType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_REPUBLIC</PolicyType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_REPUBLIC</PolicyType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_REPUBLIC</PolicyType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_REPUBLIC</PolicyType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		
+		<Delete PolicyType="POLICY_COLLECTIVE_RULE" />
+		<Row>
+			<PolicyType>POLICY_COLLECTIVE_RULE</PolicyType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_COLLECTIVE_RULE</PolicyType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_COLLECTIVE_RULE</PolicyType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_COLLECTIVE_RULE</PolicyType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_COLLECTIVE_RULE</PolicyType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+
+		<!-- Create a culture/science path to Representation -->
+		<Delete PolicyType="POLICY_CITIZENSHIP" />
+		<Row>
+			<PolicyType>POLICY_CITIZENSHIP</PolicyType>
+			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_CITIZENSHIP</PolicyType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_CITIZENSHIP</PolicyType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_REPRESENTATION</PolicyType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_REPRESENTATION</PolicyType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>		
+		
+		<!-- Force a Free Thought beeline -->
+		<Delete PolicyType="POLICY_RATIONALISM" />
+		<Row>
+			<PolicyType>POLICY_RATIONALISM</PolicyType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>22</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_RATIONALISM</PolicyType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_RATIONALISM</PolicyType>
+			<FlavorType>FLAVOR_SPACESHIP</FlavorType>
+			<Flavor>22</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_RATIONALISM</PolicyType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>-10</Flavor>
+		</Row>
+
+		<Delete PolicyType="POLICY_SECULARISM" />
+		<Row>
+			<PolicyType>POLICY_SECULARISM</PolicyType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_SECULARISM</PolicyType>
+			<FlavorType>FLAVOR_SPACESHIP</FlavorType>
+			<Flavor>22</Flavor>
+		</Row>
+
+		<Delete PolicyType="POLICY_FREE_THOUGHT" />
+		<Row>
+			<PolicyType>POLICY_FREE_THOUGHT</PolicyType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_FREE_THOUGHT</PolicyType>
+			<FlavorType>FLAVOR_SPACESHIP</FlavorType>
+			<Flavor>22</Flavor>
+		</Row>
+
+		<!-- Force a Planned Economy beeline -->
+		<Delete PolicyType="POLICY_ORDER" />
+		<Row>
+			<PolicyType>POLICY_ORDER</PolicyType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>16</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ORDER</PolicyType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ORDER</PolicyType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ORDER</PolicyType>
+			<FlavorType>FLAVOR_SPACESHIP</FlavorType>
+			<Flavor>22</Flavor>
+		</Row>
+
+		<Delete PolicyType="POLICY_PLANNED_ECONOMY" />
+		<Row>
+			<PolicyType>POLICY_PLANNED_ECONOMY</PolicyType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_PLANNED_ECONOMY</PolicyType>
+			<FlavorType>FLAVOR_SPACESHIP</FlavorType>
+			<Flavor>22</Flavor>
+		</Row>
+		
+	</Policy_Flavors>
+</GameData>

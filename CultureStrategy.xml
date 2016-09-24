@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/30/2013 12:02:40 AM -->
+<GameData>
+
+	<AIEconomicStrategies>
+	<Update>
+		<Where Type="AI_GRAND_STRATEGY_CURRENT_STRATEGY_WEIGHT" />
+		<Set Value="200" />
+		<!--Was 50-->
+	</Update>
+		
+	<Update>
+		<Where AIEconomicStrategyType="ECONOMICAISTRATEGY_GS_CULTURE" FlavorType="FLAVOR_CULTURE"/>
+		<Set Flavor="60"/>
+	</Update>
+
+	<Update>
+		<Where AIEconomicStrategyType="ECONOMICAISTRATEGY_GS_CULTURE" FlavorType="FLAVOR_SPACESHIP"/>
+		<Set Flavor="-40"/>
+	</Update>
+
+	<Update>
+		<Where AIEconomicStrategyType="ECONOMICAISTRATEGY_GS_CULTURE" FlavorType="FLAVOR_DIPLOMACY"/>
+		<Set Flavor="10"/>
+	</Update>
+	</AIEconomicStrategies>
+
+	<Defines>
+	<Update>
+		<Where Name="AI_GS_CULTURE_RATIO_MULTIPLIER" />
+		<SET Value="400" />
+		<!--Was 150-->
+	</Update>
+	<Update>
+		<Where Name="AI_GS_CULTURE_POLICY_BRANCH_MOD" />
+		<SET Value="75" />
+		<!--Was 25-->
+	</Update>
+	<Update>
+		<Where Name="AI_GS_CULTURE_MAX_CITIES" />
+		<Set Value="10" />
+		<!--Was 4-->
+	</Update>
+	</Defines>
+</GameData>

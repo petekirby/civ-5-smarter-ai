@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/29/2013 12:11:01 PM -->
+
+<GameData>
+	<Technology_Flavors>
+
+	<!-- Education / Acoustics Slingshot -->
+	<Row>
+		<TechType>TECH_EDUCATION</TechType>
+		<FlavorType>FLAVOR_CULTURE</FlavorType>
+		<Flavor>30</Flavor>
+	</Row>
+	<Delete TechType="TECH_ACOUSTICS" />
+	<Row>
+		<TechType>TECH_ACOUSTICS</TechType>
+		<FlavorType>FLAVOR_CULTURE</FlavorType>
+		<Flavor>40</Flavor>
+	</Row>
+		
+	<!-- Hermitage / Taj Mahal -->
+	<Row>
+		<TechType>TECH_ARCHITECTURE</TechType>
+		<FlavorType>FLAVOR_CULTURE</FlavorType>
+		<Flavor>6</Flavor>
+	</Row>
+		
+	<!-- Astronomy / Navigation / Museums Slingshot -->
+	<Row>
+		<TechType>TECH_COMPASS</TechType>
+		<FlavorType>FLAVOR_CULTURE</FlavorType>
+		<Flavor>5</Flavor>
+	</Row>
+	<Row>
+		<TechType>TECH_ASTRONOMY</TechType>
+		<FlavorType>FLAVOR_CULTURE</FlavorType>
+		<Flavor>10</Flavor>
+	</Row>
+	<Row>
+		<TechType>TECH_NAVIGATION</TechType>
+		<FlavorType>FLAVOR_CULTURE</FlavorType>
+		<Flavor>15</Flavor>
+	</Row>
+	<Delete TechType="TECH_ARCHAEOLOGY" />
+	<Row>
+		<TechType>TECH_ARCHAEOLOGY</TechType>
+		<FlavorType>FLAVOR_CULTURE</FlavorType>
+		<Flavor>40</Flavor>
+	</Row>
+		
+	<!-- Scientific Theory / Electricity / Radio Slingshot -->
+	<Row>
+		<TechType>TECH_SCIENTIFIC_THEORY</TechType>
+		<FlavorType>FLAVOR_CULTURE</FlavorType>
+		<Flavor>10</Flavor>
+	</Row>
+	<Row>
+		<TechType>TECH_ELECTRICITY</TechType>
+		<FlavorType>FLAVOR_CULTURE</FlavorType>
+		<Flavor>15</Flavor>
+	</Row>
+	<Delete TechType="TECH_RADIO" />
+	<Row>
+		<TechType>TECH_RADIO</TechType>
+		<FlavorType>FLAVOR_CULTURE</FlavorType>
+		<Flavor>50</Flavor>
+	</Row>		
+
+	</Technology_Flavors>
+</GameData>
